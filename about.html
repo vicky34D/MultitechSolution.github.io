@@ -51,7 +51,6 @@
 
     <canvas id="particle-canvas"></canvas>
 
-    <!-- Header & Navigation -->
     <header id="header" class="fixed top-0 left-0 right-0 z-50 transition-all duration-300 glass-effect">
         <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
             <a href="index.html" class="text-2xl font-bold text-white">
@@ -63,14 +62,12 @@
                 <a href="index.html#clients" class="text-gray-300 hover:text-blue-400 transition">Clients</a>
                 <a href="index.html#contact" class="bg-blue-500 hover:bg-blue-600 text-white font-medium py-2 px-4 rounded-lg cta-button">Contact Us</a>
             </div>
-            <!-- Mobile Menu Button -->
             <button id="mobile-menu-button" class="md:hidden text-white focus:outline-none">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
                 </svg>
             </button>
         </nav>
-        <!-- Mobile Menu -->
         <div id="mobile-menu" class="hidden md:hidden px-6 pb-4">
             <a href="index.html#services" class="block py-2 text-gray-300 hover:text-blue-400 transition">Services</a>
             <a href="about.html" class="block py-2 text-blue-400 font-bold transition">About Us</a>
@@ -80,7 +77,6 @@
     </header>
 
     <main class="pt-24">
-        <!-- About Hero Section -->
         <section class="py-20 text-center">
             <div class="container mx-auto px-6">
                 <h1 class="text-4xl md:text-6xl font-extrabold text-white">About Multitech Solution</h1>
@@ -88,10 +84,31 @@
             </div>
         </section>
 
-        <!-- Our Vision Section -->
         <section class="py-20 fade-in-section">
             <div class="container mx-auto px-6">
                 <div class="flex flex-col md:flex-row items-center gap-12">
+                    <div class="md:w-1/2">
+                        <h2 class="text-3xl font-bold text-white mb-4">Our Journey Since 2000</h2>
+                        <p class="text-gray-400 mb-4">
+                            Established in April 2000, Multitech Solutions is a professionally managed, family-owned group. With over 25 years of rich experience in varied business fields, we were founded to conduct agency business for IT products and supplies in the Power Sector, our core strength.
+                        </p>
+                        <p class="text-gray-400 mb-4">
+                            We embarked upon this journey with a commitment to create significant value for our customers and achieve success in all our endeavors, armed with three generations of wisdom and 25 years of business acumen.
+                        </p>
+                        <p class="text-gray-400">
+                            In these eventful years, we've gathered rich experience, built strong relationships, and earned goodwill. We now have clarity on where we want to be in the next 10 years, which forms the basis of our future growth.
+                        </p>
+                    </div>
+                    <div class="md:w-1/2">
+                        <img src="https://placehold.co/600x400/0a192f/3b82f6?text=Our+Legacy" alt="Company timeline or legacy visual" class="rounded-xl shadow-2xl">
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="py-20 fade-in-section">
+            <div class="container mx-auto px-6">
+                <div class="flex flex-col md:flex-row-reverse items-center gap-12">
                     <div class="md:w-1/2">
                         <h2 class="text-3xl font-bold text-white mb-4">Our Vision as a Corporate Advisor</h2>
                         <p class="text-gray-400 mb-4">
@@ -108,10 +125,9 @@
             </div>
         </section>
         
-        <!-- Our Approach Section -->
         <section class="py-20 fade-in-section">
             <div class="container mx-auto px-6">
-                <div class="flex flex-col md:flex-row-reverse items-center gap-12">
+                <div class="flex flex-col md:flex-row items-center gap-12">
                     <div class="md:w-1/2">
                         <h2 class="text-3xl font-bold text-white mb-4">A Modern Technology Provider</h2>
                         <p class="text-gray-400 mb-4">
@@ -128,7 +144,96 @@
             </div>
         </section>
 
-        <!-- Why Choose Us Section -->
+        <section class="py-20 fade-in-section">
+            <div class="container mx-auto px-6">
+                <div class="flex flex-col md:flex-row items-start gap-12">
+                    <div class="md:w-1/3">
+                        <h2 class="text-3xl font-bold text-white mb-4">Our Core Strengths</h2>
+                        <p class="text-gray-400">
+                            Our expertise is built on a deep understanding of the sectors we serve and the technology that drives them.
+                        </p>
+                    </div>
+                    <div class="md:w-2/3">
+                        <ul class="space-y-4">
+                            <li class="flex items-start space-x-3">
+                                <svg class="h-6 w-6 text-blue-400 flex-shrink-0" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                                </svg>
+                                <span class="text-gray-300">Thorough understanding of government procedures, policies and practices.</span>
+                            </li>
+                            <li class="flex items-start space-x-3">
+                                <svg class="h-6 w-6 text-blue-400 flex-shrink-0" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                                </svg>
+                                <span class="text-gray-300">Focused operations in the Power Sector for last 22 yrs with Strong Domain knowledge.</span>
+                            </li>
+                            <li class="flex items-start space-x-3">
+                                <svg class="h-6 w-6 text-blue-400 flex-shrink-0" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                                </svg>
+                                <span class="text-gray-300">Strong presence in other State Govt. Organisations, PSU's & Central Govt. Undertakings.</span>
+                            </li>
+                            <li class="flex items-start space-x-3">
+                                <svg class="h-6 w-6 text-blue-400 flex-shrink-0" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                                </svg>
+                                <span class="text-gray-300">Excellent value-added relationship management at all levels.</span>
+                            </li>
+                            <li class="flex items-start space-x-3">
+                                <svg class="h-6 w-6 text-blue-400 flex-shrink-0" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                                </svg>
+                                <span class="text-gray-300">Project planning, implementation and management.</span>
+                            </li>
+                             <li class="flex items-start space-x-3">
+                                <svg class="h-6 w-6 text-blue-400 flex-shrink-0" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                                </svg>
+                                <span class="text-gray-300">Quick understanding of varied Technology.</span>
+                            </li>
+                            <li class="flex items-start space-x-3">
+                                <svg class="h-6 w-6 text-blue-400 flex-shrink-0" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                                </svg>
+                                <span class="text-gray-300">Country-wide network of business associates for efficient project management.</span>
+                            </li>
+                            <li class="flex items-start space-x-3">
+                                <svg class="h-6 w-6 text-blue-400 flex-shrink-0" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                                </svg>
+                                <span class="text-gray-300">Understanding of all aspects of IT business (Hardware, Software, Networking, & Training).</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-20 fade-in-section">
+            <div class="container mx-auto px-6">
+                <div class="flex flex-col md:flex-row-reverse items-center gap-12">
+                    <div class="md:w-1/2">
+                        <h2 class="text-3xl font-bold text-white mb-4">Our Core Values</h2>
+                        <p class="text-gray-400 mb-4">
+                            Our values have emerged from three generations of wisdom, reflecting our personality and character.
+                        </p>
+                        <p class="text-gray-400 mb-4">
+                            <strong class="text-white">Honesty:</strong> We understand honesty as not going back on verbal and written commitments, having clarity in book keeping and monetary matters, and keeping our conscience and relations above any financial gain or loss.
+                        </p>
+                         <p class="text-gray-400 mb-4">
+                            <strong class="text-white">Integrity:</strong> Integrity towards our work and customers is our driving force.
+                        </p>
+                        <p class="text-gray-400">
+                            <strong class="text-white">Respect & Relations:</strong> We value and uphold the respect for the Individual and the spirit of achieving Happiness. We value friendship and relations, trust and loyalty, secrecy and transparency, courage to speak up the truth under adverse situations, and the Mystic Power of the Universe.
+                        </p>
+                    </div>
+                     <div class="md:w-1/2">
+                        <img src="https://placehold.co/600x400/0a192f/3b82f6?text=Our+Values" alt="Team values or handshake" class="rounded-xl shadow-2xl">
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <section class="py-20 fade-in-section">
             <div class="container mx-auto px-6">
                  <div class="text-center mb-12">
@@ -164,9 +269,38 @@
             </div>
         </section>
 
+        <section class="py-20 fade-in-section">
+            <div class="container mx-auto px-6 text-center">
+                <h2 class="text-3xl font-bold text-white mb-4">Our Presence</h2>
+                <p class="text-lg text-blue-400 mt-2 mb-8">Connecting with you, wherever you are.</p>
+                
+                <div class="max-w-4xl mx-auto">
+                    <div>
+                        <h3 class="text-xl font-semibold text-white mb-2">Registered Office</h3>
+                        <p class="text-gray-400 text-lg">Kolkata</p>
+                    </div>
+                    
+                    <hr class="border-gray-700 my-8 w-1/4 mx-auto">
+                    
+                    <div>
+                        <h3 class="text-xl font-semibold text-white mb-4">Branch / Representative Offices</h3>
+                        <div class="flex flex-wrap justify-center gap-x-6 gap-y-3 text-gray-400 text-lg">
+                            <span>New Delhi</span>
+                            <span>Mumbai</span>
+                            <span>Raipur</span>
+                            <span>Bangalore</span>
+                            <span>Chandigarh</span>
+                            <span>Shillong</span>
+                            <span>Ranchi</span>
+                            <span>Guwahati</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
     </main>
     
-    <!-- Footer -->
     <footer class="bg-gray-900/50 py-12">
         <div class="container mx-auto px-6 text-center text-gray-400">
             <p class="text-xl font-bold text-white mb-2">Multi<span class="text-blue-400">tech</span> Solution</p>
